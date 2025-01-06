@@ -476,7 +476,7 @@ ul.nav > li > a.active{
 }
 
 /* Hero Section */
-.hero-section{
+.hero-section {
     background-image: url(../img/hero-back.png);
     background-repeat: no-repeat;
     background-position: center center;
@@ -485,6 +485,14 @@ ul.nav > li > a.active{
     height: 100vh;
     position: relative;
 }
+
+/* Responsive styling for mobile screens */
+@media (max-width: 768px) {
+    .hero-section {
+        height: 100%; /* Use 100% height on smaller screens */
+    }
+}
+
 .hero-content h1{
     font-size: 80px;
     text-transform: uppercase;
