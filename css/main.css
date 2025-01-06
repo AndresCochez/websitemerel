@@ -482,15 +482,8 @@ ul.nav > li > a.active{
     background-position: center center;
     background-size: cover;
     width: 100%;
-    height: 100vh;
+    height: 100vh; /* Volledige hoogte van het scherm */
     position: relative;
-}
-
-/* Responsive styling for mobile screens */
-@media (max-width: 768px) {
-    .hero-section {
-        height: 100%; /* Use 100% height on smaller screens */
-    }
 }
 
 .hero-content h1{
